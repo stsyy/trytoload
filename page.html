@@ -9,24 +9,46 @@
 </head>
 <body>
     <header class="bg-light text-center py-4">
-        <div class ="container">
-            <h1 class="display-4"> Рецепт тыквенного хлеба</h1>
-            <p class="lead">По рецепту на этой странице вы сможете приготовить новое для себя осеннее блюдо</p>
-            <nav class="nav justify-content-center">
-            </nav>
-        </div>
-    </header>
+        <h1 class="display-4">Рецепт тыквенного хлеба</h1>
+        <p class="lead">По рецепту на этой странице вы сможете приготовить новое для себя осеннее блюдо</p>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#pumpkin-info">Почему вам нужно попробовать этот рецепт?</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#ingredients">Ингредиенты</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#cooking">Как приготовить тыквенный хлеб</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#tips">Советы по приготовлению</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#benefits">Польза тыквы</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header> 
 
 <main>   
 <div class="container">
-    <section class="module pumpkin-info">
+    <section class="module pumpkin-info" id="pumpkin-info">
         <h2>Почему вам нужно попробовать этот рецепт?</h2>
         <p class="fst-italic">Осенние холодные вечера - самое уютное время, когда хочется собраться
          с семьёй или друзьями, и в приятной и уютной обстановке выпить чай с чем-нибудь пряным и по-осеннему ароматным. 
          Например, с тыквенным хлебом, к приготовлению которого мы сейчас же и приступим!</p>
     </section>
  
-    <section class="module first">
+    <section class="module first" id="ingredients">
         <h2>Ингредиенты</h2>
         <div class="image-container mb-3">
             <img class = "images" src="ingred.jpg" alt="Ингредиенты для тыквенного хлеба">
@@ -45,7 +67,7 @@
      <p class="fw-bold">Также по желанию можете добавить грецкие орехи и любимые специи.</p>
 </ul>
     </section>
-    <section class="module second">
+    <section class="module second" id="cooking">
         <h2>Как приготовить тыквенный хлеб</h2>
         <div class="image-container mb-3">
             <img class = "images" src="whisk.jpg" alt="Венчик в тыквенном тесте">
@@ -70,7 +92,7 @@
         <p class="text-center">Приятного аппетита!</p>
     </section>
 
-    <section class="module pumpkin-tips">
+    <section class="module pumpkin-tips" id="tips">
         <h2>Советы по приготовлению</h2>
 <ul>
     <li><strong>Не перемешивайте слишком долго:</strong> Перемешивайте тесто ровно столько, 
@@ -86,7 +108,7 @@
 </ul>
     </section>
 
-    <section class="module pumpkin-info">
+    <section class="module pumpkin-info" id="benefits">
         <h2>Польза тыквы</h2>
         <p class="fst-italic">Тыква — это не только вкусный, но и 
             полезный продукт. Она богата витаминами A, C и E, а 
@@ -113,5 +135,6 @@
 <footer  class="bg-light text-center py-4">
     <p>Фотоотзывы, предложения по улучшению рецепта можете присылать по адресу: <a href="mailto:skorlaz@icloud.com">skorlaz@icloud.com</a></p>
 </footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.1/js/bootstrap.min.js"></script>
 </body>
 </html>
